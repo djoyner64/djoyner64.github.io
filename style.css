@@ -4,6 +4,10 @@ p{
 
 *{
   box-sizing:border-box;
+  font-family: "Ysabeau SC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 body{
@@ -34,7 +38,7 @@ body{
   float: left;
   display: block;
   text-align: center;
-  padding: 14x 16px;
+  padding: 14px 16px;
 }
 
 .topnav a:hover{
@@ -47,6 +51,9 @@ body{
   padding: 20px;
   text-align: center;
   width: 1350px;
+  border-style: solid;
+  border-width: 3px; 
+  border-color: #755B0B;
 }
 /*creates 3equal colums that float next to eachother*/
 .column{
@@ -69,6 +76,3 @@ div {
   padding: 10px;
   margin: 0;
 }
-
-
-
